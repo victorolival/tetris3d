@@ -15,7 +15,7 @@ public class Janela
 	public Janela()
 	{
 		// Cria janela
-		JFrame janela = new JFrame("Desenho de um teapot 3D");   
+		JFrame janela = new JFrame("Tetris 3D");   
 		janela.setBounds(50,100,1024,780); 
 		janela.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 

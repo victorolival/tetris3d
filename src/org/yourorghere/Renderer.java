@@ -164,6 +164,7 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
 	}
         
         public void desenhajogo() {
+        
             
 
         // Clear the drawing area
@@ -172,11 +173,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA1--------------------------------------------------------------
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(0.0f, -4.0f, -20.0f);
+        
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
       
         gl.glPushMatrix();
+        gl.glTranslatef(0.0f, -4.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -218,11 +220,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(2.0f, -4.0f, -20.0f);
+      //  gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
       
         gl.glPushMatrix();
+        gl.glTranslatef(2.0f, -4.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -264,11 +267,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();        
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(0.0f, -6.0f, -20.0f);
+      //  gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
       
         gl.glPushMatrix();
+        gl.glTranslatef(0.0f, -6.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -310,11 +314,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(2.0f, -6.0f, -20.0f);
+       // gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
       
         gl.glPushMatrix();
+        gl.glTranslatef(2.0f, -6.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -360,11 +365,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA2--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-4.0f, 0.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -406,11 +412,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-4.0f, -2.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -452,11 +459,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-4.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -498,11 +506,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(-4.0f, -6.0f, -20.0f);
+       // gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(-4.0f, -6.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -548,11 +557,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA3--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(4.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -594,11 +604,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+        //gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(6.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -640,11 +651,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(4.0f, -2.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -686,11 +698,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(2.0f, -2.0f, -20.0f);
+       // gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(2.0f, -2.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -736,11 +749,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA4--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(10.0f, 0.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -782,11 +796,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+     //   gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(12.0f, 0.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -828,11 +843,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(12.0f, 2.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -874,11 +890,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(12.0f, -2.0f, -20.0f);
+       // gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(12.0f, -2.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -924,11 +941,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA5--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-12.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -970,11 +988,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-10.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1016,11 +1035,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-8.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1062,11 +1082,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(-8.0f, 4.0f, -20.0f);
+      //  gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(-8.0f, 4.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1112,11 +1133,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA6--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-12.0f, -2.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1158,11 +1180,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+     //   gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-12.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1204,11 +1227,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+     //   gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(-10.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1250,11 +1274,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(-10.0f, -6.0f, -20.0f);
+     //   gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(-10.0f, -6.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1300,11 +1325,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA7--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(2.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1346,11 +1372,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(4.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1392,11 +1419,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(6.0f, 6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1438,11 +1466,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(4.0f, 4.0f, -20.0f);
+       // gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(4.0f, 4.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1488,11 +1517,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA8--------------------------------------------------------------
         
-        gl.glLoadIdentity();
+       // gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(10.0f, -2.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1534,11 +1564,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+      //  gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(10.0f, -4.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1580,11 +1611,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
+        //gl.glLoadIdentity();
+        
+        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
+        
+        gl.glPushMatrix();
         gl.glTranslatef(10.0f, -6.0f, -20.0f);
-        //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
-        
-        gl.glPushMatrix();
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1626,11 +1658,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         gl.glEnd();
         gl.glPopMatrix();
         
-        gl.glLoadIdentity();
-        gl.glTranslatef(12.0f, -6.0f, -20.0f);
+        //gl.glLoadIdentity();
+        
         //gl.glRotatef(rquad, 1.0f, 1.0f, 1.0f);
         
         gl.glPushMatrix();
+        gl.glTranslatef(12.0f, -6.0f, -20.0f);
         gl.glBegin(GL.GL_QUADS);
         
         // Draw A Quad
@@ -1674,14 +1707,12 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
         
         //----------------------------------PEÇA8--------------------------------------------------------------
         
-        
-        
-        
+       
         
         
         gl.glFlush();
         
-        posicionaObservador();
+        
         
         }
   
