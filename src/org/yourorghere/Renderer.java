@@ -17,7 +17,11 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
 	private double angle, fAspect;
         
         private double obsX, obsY, obsZ;
-
+        
+        
+        public GL getgl(){
+            return gl;
+        } 
 	/**
 	 * Construtor da classe Renderer que não recebe parâmetros.
 	 */
@@ -86,7 +90,8 @@ public class Renderer extends MouseAdapter implements GLEventListener, KeyListen
                 
 		gl.glColor3f(0.0f, 0.0f, 1.0f);
                 
-                desenhajogo();
+                Tetris3D desenho = new Tetris3D(gl);
+                desenho.desenhajogo(gl);
 		//glut.glutWireTeapot(35); 
 		gl.glTranslatef(0,-28,0);
 		desenhaChao();
