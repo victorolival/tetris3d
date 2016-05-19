@@ -1,10 +1,10 @@
 package org.yourorghere;
-
 import javax.swing.*;
 import java.awt.*; 
+
 import javax.media.opengl.*;
 
-public class Janela
+public class Main
 {
 	private Renderer renderer;
 
@@ -12,11 +12,11 @@ public class Janela
 	 * Construtor da classe ExemploJava que não recebe parâmetros. Cria uma janela e insere  
 	 * um componente canvas OpenGL.
 	 */
-	public Janela()
+	public Main()
 	{
 		// Cria janela
-		JFrame janela = new JFrame("Tetris 3D");   
-		janela.setBounds(50,100,1024,780); 
+		JFrame janela = new JFrame("Textura");   
+		janela.setBounds(50,100,500,500); 
 		janela.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
 		BorderLayout layout = new BorderLayout(); 
@@ -33,7 +33,7 @@ public class Janela
 
 		// Cria o objeto que irá gerenciar os eventos
 		renderer = new Renderer();
-
+		
 		// Cria um canvas, adiciona na janela, e especifica o objeto "ouvinte" 
 		// para os eventos Gl, de mouse e teclado
 		// GLCanvas canvas = GLDrawableFactory.getFactory().createGLCanvas(c);
@@ -46,11 +46,9 @@ public class Janela
 		canvas.requestFocus();
 	}
 
-	/**
-	 * Método main que apenas cria um objeto ExemploJava.
-	 */
-	public static void main(String args[])
-	{
-		Janela ej = new Janela();
-	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main ej = new Main();
+	
+    }
 }
