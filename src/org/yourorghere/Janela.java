@@ -4,7 +4,7 @@ import java.awt.*;
 
 import javax.media.opengl.*;
 
-public class Main
+public class Janela
 {
 	private Renderer renderer;
 
@@ -12,11 +12,11 @@ public class Main
 	 * Construtor da classe ExemploJava que não recebe parâmetros. Cria uma janela e insere  
 	 * um componente canvas OpenGL.
 	 */
-	public Main()
+	public Janela()
 	{
 		// Cria janela
-		JFrame janela = new JFrame("Textura");   
-		janela.setBounds(50,100,500,500); 
+		JFrame janela = new JFrame("Tetris 3D");   
+		janela.setBounds(50,100,1000,500); 
 		janela.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
 		BorderLayout layout = new BorderLayout(); 
@@ -48,7 +48,6 @@ public class Main
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Main ej = new Main();
-	
-    }
+		Janela ej = new Janela();
+	}	
 }

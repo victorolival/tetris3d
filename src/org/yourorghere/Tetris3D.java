@@ -16,7 +16,7 @@ public class Tetris3D {
      public void desenhajogo(GL gl) {
         
          
-            
+         
 
         // Clear the drawing area
         //gl.glClear(GL.GL_COLOR_BUFFER_BIT | GL.GL_DEPTH_BUFFER_BIT);
